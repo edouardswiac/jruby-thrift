@@ -5,6 +5,7 @@ include_class 'org.apache.thrift.transport.TFramedTransport$Factory'
 include_class 'org.apache.thrift.transport.THttpClient'
 include_class 'org.apache.thrift.transport.TIOStreamTransport'
 include_class 'org.apache.thrift.transport.TMemoryInputTransport'
+include_class 'org.apache.thrift.transport.TNonblockingServerSocket'
 include_class 'org.apache.thrift.transport.TServerSocket'
 include_class 'org.apache.thrift.transport.TSocket'
 module Thrift
@@ -15,6 +16,7 @@ module Thrift
   HttpClientTransport = org.apache.thrift.transport.THttpClient
   IoStreamTransport = org.apache.thrift.transport.TIOStreamTransport
   MemoryBufferTransport = org.apache.thrift.transport.TMemoryInputTransport
+  NonblockingServerSocket = org.apache.thrift.transport.TNonblockingServerSocket
   ServerSocket = org.apache.thrift.transport.TServerSocket
   Socket = org.apache.thrift.transport.TSocket
 end
