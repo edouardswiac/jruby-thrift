@@ -15,8 +15,10 @@ Gem::Specification.new do |s|
   s.files = ["README", "Rakefile", "LICENSE.txt", "lib/client.rb", "lib/core_ext.rb",
              "lib/data_structures.rb","lib/deserializer.rb","lib/serializer.rb","lib/exceptions.rb", 
              "lib/processor.rb","lib/protocols.rb","lib/serializer.rb","lib/servers.rb", 
-             "lib/thrift.rb","lib/transports.rb","lib/types.rb", 
-             "lib/libthrift.jar", "lib/slf4j-api-1.6.1.jar", "lib/slf4j-simple-1.6.1.jar"]
+             "lib/thrift.rb","lib/transports.rb","lib/types.rb",
+             "lib/commons-codec-1.4.jar", "lib/commons-logging-1.1.1.jar", "lib/httpclient-4.1.1.jar",
+             "lib/httpclient-cache-4.1.1.jar", "lib/httpcore-4.1.1.jar", "lib/httpmime-4.1.1.jar",
+             "lib/libthrift-0.6.1-snapshot.jar", "lib/slf4j-api-1.6.1.jar", "lib/slf4j-simple-1.6.1.jar"]
   s.homepage = %q{http://github.com/evandowling/jruby-trhift}
   s.rdoc_options = ["--main", "README.txt", "-SHN", "-f", "darkfish"]
   s.require_paths = ["lib"]
