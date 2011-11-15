@@ -12,7 +12,6 @@ require File.expand_path('../java/servlet-api-2.5.jar', __FILE__)
 require File.expand_path('../java/slf4j-simple-1.6.2.jar', __FILE__)
 require File.expand_path('../java/slf4j-api-1.6.2.jar', __FILE__)
 
-require File.expand_path('../core_ext', __FILE__)
 require File.expand_path('../exceptions', __FILE__)
 require File.expand_path('../types', __FILE__)
 require File.expand_path('../processor', __FILE__)
