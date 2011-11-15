@@ -1,24 +1,23 @@
 require 'java'
-require File.dirname(__FILE__) + '/commons-logging-1.1.1.jar'
-require File.dirname(__FILE__) + '/commons-codec-1.4.jar'
-require File.dirname(__FILE__) + '/httpcore-4.1.1.jar'
-require File.dirname(__FILE__) + '/httpmime-4.1.1.jar'
-require File.dirname(__FILE__) + '/httpclient-cache-4.1.1.jar'
-require File.dirname(__FILE__) + '/httpclient-4.1.1.jar'
-require File.dirname(__FILE__) + '/slf4j-simple-1.6.1.jar'
-require File.dirname(__FILE__) + '/slf4j-api-1.6.1.jar'
-require File.dirname(__FILE__) + '/libthrift-0.6.1-snapshot.jar'
 
-require File.dirname(__FILE__) + '/core_ext'
-require File.dirname(__FILE__) + '/exceptions'
-require File.dirname(__FILE__) + '/types'
-require File.dirname(__FILE__) + '/processor'
-require File.dirname(__FILE__) + '/client'
-require File.dirname(__FILE__) + '/data_structures'
+require File.expand_path('../java/commons-logging-1.1.1.jar', __FILE__)
+require File.expand_path('../java/commons-codec-1.4.jar', __FILE__)
+require File.expand_path('../java/httpcore-4.1.1.jar', __FILE__)
+require File.expand_path('../java/httpmime-4.1.1.jar', __FILE__)
+require File.expand_path('../java/httpclient-cache-4.1.1.jar', __FILE__)
+require File.expand_path('../java/httpclient-4.1.1.jar', __FILE__)
+require File.expand_path('../java/slf4j-simple-1.6.1.jar', __FILE__)
+require File.expand_path('../java/slf4j-api-1.6.1.jar', __FILE__)
+require File.expand_path('../java/libthrift-0.6.1-snapshot.jar', __FILE__)
 
-require File.dirname(__FILE__) + '/serializer'
-require File.dirname(__FILE__) + '/deserializer'
-
-require File.dirname(__FILE__) + '/protocols'
-require File.dirname(__FILE__) + '/transports'
-require File.dirname(__FILE__) + '/servers'
+require File.expand_path('../core_ext', __FILE__)
+require File.expand_path('../exceptions', __FILE__)
+require File.expand_path('../types', __FILE__)
+require File.expand_path('../processor', __FILE__)
+require File.expand_path('../client', __FILE__)
+require File.expand_path('../data_structures', __FILE__)
+require File.expand_path('../serializer', __FILE__)
+require File.expand_path('../deserializer', __FILE__)
+require File.expand_path('../protocols', __FILE__)
+require File.expand_path('../transports', __FILE__)
+require File.expand_path('../servers', __FILE__)

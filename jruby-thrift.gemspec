@@ -25,5 +25,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{jruby-extras}
   s.rubygems_version = %q{1.4.2}
   s.summary = %q{Thrift binding for jruby using the Java thrift bindings in place of native extensions.}
-
+  
+  # use buildr for jar packaging
+  s.add_development_dependency 'buildr'
+  
+  
 end
