@@ -36,7 +36,6 @@ GEM
       bouncy-castle-java
     json_pure (1.4.3)
     minitar (0.5.3)
-    mvn:rhino:js (1.7.r.2-java)
     net-sftp (2.0.4)
       net-ssh (>= 2.0.9)
     net-ssh (2.0.23)
@@ -60,4 +59,3 @@ PLATFORMS
 DEPENDENCIES
   buildr
   jruby-thrift!
-  mvn:rhino:js

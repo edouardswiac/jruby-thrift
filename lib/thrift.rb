@@ -1,14 +1,16 @@
 require 'java'
 
+require File.expand_path('../java/commons-codec-1.5.jar', __FILE__)
+require File.expand_path('../java/commons-lang-2.5.jar', __FILE__)
 require File.expand_path('../java/commons-logging-1.1.1.jar', __FILE__)
-require File.expand_path('../java/commons-codec-1.4.jar', __FILE__)
+require File.expand_path('../java/httpclient-4.1.1.jar', __FILE__)
+require File.expand_path('../java/httpclient-cache-4.1.1.jar', __FILE__)
 require File.expand_path('../java/httpcore-4.1.1.jar', __FILE__)
 require File.expand_path('../java/httpmime-4.1.1.jar', __FILE__)
-require File.expand_path('../java/httpclient-cache-4.1.1.jar', __FILE__)
-require File.expand_path('../java/httpclient-4.1.1.jar', __FILE__)
-require File.expand_path('../java/slf4j-simple-1.6.1.jar', __FILE__)
-require File.expand_path('../java/slf4j-api-1.6.1.jar', __FILE__)
-require File.expand_path('../java/libthrift-0.6.1-snapshot.jar', __FILE__)
+require File.expand_path('../java/libthrift-0.7.0.jar', __FILE__)
+require File.expand_path('../java/servlet-api-2.5.jar', __FILE__)
+require File.expand_path('../java/slf4j-simple-1.6.2.jar', __FILE__)
+require File.expand_path('../java/slf4j-api-1.6.2.jar', __FILE__)
 
 require File.expand_path('../core_ext', __FILE__)
 require File.expand_path('../exceptions', __FILE__)
